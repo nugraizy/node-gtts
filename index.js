@@ -123,7 +123,6 @@ function getHeader() {
   var headers = {
     "User-Agent": fakeUa()
   };
-  console.log('headers', headers);
   return headers;
 }
 
